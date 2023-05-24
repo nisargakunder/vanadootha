@@ -1,0 +1,132 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* body,html{
+    height: 100%;
+    margin: 0;
+} */
+
+.mainBtn {
+    color: white;
+    background-color: #2A7F5B;
+    border: none;
+    /* margin: 4px 2px; */
+    font-size: 25;
+    padding-left: 0px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+
+}
+
+.mainBtn:hover {
+    background-color: gray;
+}
+
+.logo {
+    /* width:60px; */
+    height: 60px;
+    float: left;
+
+}
+
+.header {
+    background-color: #2A7F5B;
+    width: 101%;
+    font-size: 2.5em;
+    margin: -8px;
+}
+
+.pos {
+    text-align: right;
+    width: 100%;
+    /* margin: 0px; */
+}
+
+.pic {
+    width: 550px;
+    height: 550px;
+    float: right;
+}
+
+h1 {
+    color: #2A7F5B;
+}
+
+.pos2 {
+    position: absolute;
+    left: 50px;
+    width: 700px
+}
+
+p {
+    /* font-family:'Outfit'; */
+    font-size: 20px;
+}
+
+.head {
+    margin: -8px;
+    /* border: 1px solid red ; */
+    height: 700px;
+    background-image: url("./forest.jpg");
+    background-position: center;
+    /* height: 400px; */
+    /* width: 100%; */
+}
+
+.nav1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 10%;
+    text-align: center;
+}
+
+@media (min-width:0px) and (max-width:1200px) {
+    .logo1 {
+        display: none;
+    }
+}
+
+.abc1 {
+
+    margin-top: -53px;
+    margin-left: -8px;
+    margin-right: -100px;
+
+    height: 300px;
+    width: 101%;
+    background-color: #99D387;
+}
+
+.h2fontcolor {
+    color: #324856;
+}
+
+.abc2 {
+    text-align: center;
+}
+
+input[type=text] {
+    /* width: 100%; */
+    padding: 9px 65px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+textarea{
+    padding: 4px 120px;
+    margin: 28px 0;
+    box-sizing: border-box;
+}
+.submit {
+    background-color: #324856; /* Green */
+    border: none;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
